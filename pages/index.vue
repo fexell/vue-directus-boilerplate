@@ -1,9 +1,7 @@
 
 
 <template>
-  <div class='page'>
-    <div class='page-container'>
-      
-    </div>
+  <div>
+    Hello
   </div>
 </template>

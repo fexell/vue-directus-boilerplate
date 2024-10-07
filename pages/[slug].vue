@@ -1,5 +1,5 @@
 <script setup>
-  const { $directus, $readItem } = useNuxtApp()
+  const { $directus, $readItem, $readItems } = useNuxtApp()
   const route = useRoute()
 
   const { data: page } = await useAsyncData('page', () => {
@@ -15,7 +15,7 @@
 <template>
   <div class='page'>
     <div class='page-container'>
-      <div v-html='page.content'></div>
+
     </div>
   </div>
 </template>
